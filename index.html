@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>과학자 이야기 수업 인포그래픽</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Tailwind CSS와 Chart.js 라이브러리를 불러옵니다. -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<body class="text-gray-800">
+
+    <div class="container mx-auto max-w-5xl p-4 md:p-8">
+
+        <header class="text-center my-8 md:my-12">
+            <h1 class="text-4xl md:text-5xl font-black" style="color: #073B4C;">파인만 학습법으로 만나는 과학자 이야기</h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-600">중학생의 눈높이에 맞춘 3차시 프로젝트 수업 완전 정복</p>
+        </header>
+
+        <section class="mb-16">
+            <div class="bg-white p-8 rounded-2xl shadow-lg border-t-8 border-amber-400">
+                <h2 class="text-3xl font-bold text-center mb-6" style="color: #118AB2;">핵심 열쇠: 파인만 학습법이란?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+                    <div class="p-4">
+                        <div class="flex items-center justify-center mx-auto w-16 h-16 rounded-full font-bold text-2xl text-white" style="background-color: #FF6B6B;">1</div>
+                        <h3 class="font-bold text-lg mt-4">개념 선택</h3>
+                        <p class="text-sm text-gray-600 mt-1">탐구하고 싶은 과학자나<br>개념 정하기</p>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-center mx-auto w-16 h-16 rounded-full font-bold text-2xl text-white" style="background-color: #FFD166;">2</div>
+                        <h3 class="font-bold text-lg mt-4">설명하기</h3>
+                        <p class="text-sm text-gray-600 mt-1">동생에게 가르치듯<br>쉽게 설명해보기</p>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-center mx-auto w-16 h-16 rounded-full font-bold text-2xl text-white" style="background-color: #06D6A0;">3</div>
+                        <h3 class="font-bold text-lg mt-4">부족한 점 찾기</h3>
+                        <p class="text-sm text-gray-600 mt-1">설명이 막히는 부분을<br>체크하고 다시 공부하기</p>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-center mx-auto w-16 h-16 rounded-full font-bold text-2xl text-white" style="background-color: #118AB2;">4</div>
+                        <h3 class="font-bold text-lg mt-4">단순화하기</h3>
+                        <p class="text-sm text-gray-600 mt-1">나만의 비유로<br>완벽하게 내 것으로 만들기</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1차시 -->
+        <section id="session1" class="mb-12">
+            <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg overflow-hidden">
+                <div class="flex items-center gap-4 mb-6">
+                    <span class="text-5xl font-black" style="color: #FF6B6B;">1차시</span>
+                    <div>
+                        <h2 class="text-3xl font-bold" style="color: #073B4C;">과학자, 누구세요?</h2>
+                        <p class="text-lg text-gray-600">위대한 발견의 시작, 마리 퀴리처럼 탐구하기</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+                    <div class="md:col-span-3">
+                        <h3 class="font-bold text-xl mb-4 border-b-2 pb-2" style="border-color: #FF6B6B;">수업 활동 흐름</h3>
+                        <div class="relative pl-6 space-y-6 border-l-2 border-gray-200">
+                            <div class="absolute w-4 h-4 bg-red-500 rounded-full -left-2 top-1"></div>
+                            <div>
+                                <h4 class="font-bold">도<span class="font-mono text-sm px-2 py-1 bg-red-100 text-red-700 rounded-md">5분</span></h4>
+                                <p class="text-sm mt-1">"눈에 보이지 않는다면?" 발문으로 호기심 자극, 마리 퀴리 소개</p>
+                            </div>
+                             <div class="absolute w-4 h-4 bg-red-500 rounded-full -left-2 top-24"></div>
+                            <div>
+                                <h4 class="font-bold">전개 1 <span class="font-mono text-sm px-2 py-1 bg-red-100 text-red-700 rounded-md">15분</span></h4>
+                                <p class="text-sm mt-1">'방사능'을 따뜻한 조약돌 찾기에 비유하며 파인만 기법 시연</p>
+                            </div>
+                             <div class="absolute w-4 h-4 bg-red-500 rounded-full -left-2 top-48"></div>
+                            <div>
+                                <h4 class="font-bold">전개 2 <span class="font-mono text-sm px-2 py-1 bg-red-100 text-red-700 rounded-md">20분</span></h4>
+                                <p class="text-sm mt-1">📦 '블랙박스' 내용물 추리 미션으로 간접 탐구 과정 체험</p>
+                            </div>
+                             <div class="absolute w-4 h-4 bg-red-500 rounded-full -left-2 bottom-1"></div>
+                            <div>
+                                <h4 class="font-bold">정리 <span class="font-mono text-sm px-2 py-1 bg-red-100 text-red-700 rounded-md">5분</span></h4>
+                                <p class="text-sm mt-1">탐구는 과정이 중요함을 강조, 다음 차시 과제 제시</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:col-span-2">
+                        <div class="chart-container">
+                            <canvas id="session1Chart"></canvas>
+                        </div>
+                        <p class="text-center text-sm font-semibold mt-2 text-gray-600">1차시 시간 배분</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2차시 -->
+        <section id="session2" class="mb-12">
+             <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg overflow-hidden">
+                <div class="flex items-center gap-4 mb-6">
+                    <span class="text-5xl font-black" style="color: #06D6A0;">2차시</span>
+                    <div>
+                        <h2 class="text-3xl font-bold" style="color: #073B4C;">과학자의 비밀 연구 노트</h2>
+                        <p class="text-lg text-gray-600">세상의 규칙을 발견하다, 뉴턴처럼 생각하기</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+                    <div class="md:col-span-3">
+                        <h3 class="font-bold text-xl mb-4 border-b-2 pb-2" style="border-color: #06D6A0;">수업 활동 흐름</h3>
+                         <div class="relative pl-6 space-y-6 border-l-2 border-gray-200">
+                            <div class="absolute w-4 h-4 bg-green-500 rounded-full -left-2 top-1"></div>
+                            <div>
+                                <h4 class="font-bold">도입 <span class="font-mono text-sm px-2 py-1 bg-green-100 text-green-700 rounded-md">5분</span></h4>
+                                <p class="text-sm mt-1">"사과는 왜 아래로만 떨어질까?" 뉴턴의 사과 이야기로 질문의 중요성 강조</p>
+                            </div>
+                             <div class="absolute w-4 h-4 bg-green-500 rounded-full -left-2 top-24"></div>
+                            <div>
+                                <h4 class="font-bold">전개 1 <span class="font-mono text-sm px-2 py-1 bg-green-100 text-green-700 rounded-md">15분</span></h4>
+                                <p class="text-sm mt-1">운동 법칙을 '귀차니스트', '힘쎈 놈' 등 재미있는 비유로 설명</p>
+                            </div>
+                             <div class="absolute w-4 h-4 bg-green-500 rounded-full -left-2 top-48"></div>
+                            <div>
+                                <h4 class="font-bold">전개 2 <span class="font-mono text-sm px-2 py-1 bg-green-100 text-green-700 rounded-md">20분</span></h4>
+                                <p class="text-sm mt-1">⚖️ 진자 실험으로 '가설-실험-결론'의 과학 법칙 발견 과정 체험</p>
+                            </div>
+                             <div class="absolute w-4 h-4 bg-green-500 rounded-full -left-2 bottom-1"></div>
+                            <div>
+                                <h4 class="font-bold">정리 <span class="font-mono text-sm px-2 py-1 bg-green-100 text-green-700 rounded-md">5분</span></h4>
+                                <p class="text-sm mt-1">과학 법칙은 수많은 실험과 실패의 결과임을 강조</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:col-span-2">
+                        <div class="chart-container">
+                            <canvas id="session2Chart"></canvas>
+                        </div>
+                        <p class="text-center text-sm font-semibold mt-2 text-gray-600">2차시 시간 배분</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3차시 -->
+        <section id="session3" class="mb-12">
+             <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg overflow-hidden">
+                <div class="flex items-center gap-4 mb-6">
+                    <span class="text-5xl font-black" style="color: #118AB2;">3차시</span>
+                    <div>
+                        <h2 class="text-3xl font-bold" style="color: #073B4C;">내가 바로 미래의 과학자!</h2>
+                        <p class="text-lg text-gray-600">지식의 공유, 과학자 명예의 전당</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+                    <div class="md:col-span-3">
+                        <h3 class="font-bold text-xl mb-4 border-b-2 pb-2" style="border-color: #118AB2;">수업 활동 흐름</h3>
+                        <div class="relative pl-6 space-y-6 border-l-2 border-gray-200">
+                            <div class="absolute w-4 h-4 bg-blue-500 rounded-full -left-2 top-1"></div>
+                            <div>
+                                <h4 class="font-bold">도입 <span class="font-mono text-sm px-2 py-1 bg-blue-100 text-blue-700 rounded-md">5분</span></h4>
+                                <p class="text-sm mt-1">'과학자 명예의 전당' 발표회 규칙 안내 (파인만 기법 적용)</p>
+                            </div>
+                             <div class="absolute w-4 h-4 bg-blue-500 rounded-full -left-2 top-24"></div>
+                            <div>
+                                <h4 class="font-bold">전개 <span class="font-mono text-sm px-2 py-1 bg-blue-100 text-blue-700 rounded-md">30분</span></h4>
+                                <p class="text-sm mt-1">🧑‍🏫 학생들이 직접 조사한 과학자(갈릴레이, 다윈 등)를 쉬운 비유로 발표</p>
+                            </div>
+                             <div class="absolute w-4 h-4 bg-blue-500 rounded-full -left-2 bottom-1"></div>
+                            <div>
+                                <h4 class="font-bold">정리 <span class="font-mono text-sm px-2 py-1 bg-blue-100 text-blue-700 rounded-md">10분</span></h4>
+                                <p class="text-sm mt-1">"과학자처럼 생각한다는 것은?" 마무리 토의로 과학적 태도 내면화</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:col-span-2">
+                        <div class="chart-container">
+                            <canvas id="session3Chart"></canvas>
+                        </div>
+                        <p class="text-center text-sm font-semibold mt-2 text-gray-600">3차시 시간 배분</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center my-8 md:my-12">
+            <p class="text-gray-500">이 수업을 통해 학생들이 과학의 즐거움을 발견하기를 바랍니다.</p>
+        </footer>
+
+    </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
